@@ -64,3 +64,85 @@
     margin: 0;
     padding-bottom: 21px;
 }
+
+/* banner section end */
+/* service car section start */
+
+.service-and-history-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.service-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-card{
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    border: 1px ;
+    border-radius: 12px;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+    background: var(--White, rgba(255, 255, 255, 1));
+}
+
+.service-card-img{
+    width: 32px;
+    height: 32px;
+}
+
+.service-card-title{
+    color: var(--Dark, rgba(17, 17, 17, 1));
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 2px;
+}
+
+.service-card-subtitle{
+    color: var(--Gray, rgba(92, 92, 92, 1));
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.service-num{
+    color: var(--Dark, rgba(17, 17, 17, 1));
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 24px;
+}
+
+.all-service{
+    color: var(--Gray, rgba(92, 92, 92, 1));
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 24px;
+    margin-top: 2px;
+}
+
+
+.service-btn{
+    color: var(--White, rgba(255, 255, 255, 1));
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    width: 182.33px;
+    height: 40px;
+}
+
+.Copy{
+    color: var(--Gray, rgba(92, 92, 92, 1));
+}
+
+.Call{
+    background: var(--Green, rgba(0, 166, 62, 1));
+}
