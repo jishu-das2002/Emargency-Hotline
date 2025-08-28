@@ -28,9 +28,32 @@
     display: flex;
 }
 
-.nav-section-menu .menu-img{
+ .heart-img{
     width: 30px;
     height: 30px;
+}
+
+.coin-img{
+    width: 30px;
+    height: 30px;
+}
+
+.copy-btn{
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 127px;
+    height: 52px;
+    text-align: center;
+    margin: 0;
+    border-radius: 50px;
+    background: rgba(0, 166, 62, 1);
+}
+
+.copy-btn p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
 }
 
 /* banner section start */
@@ -38,6 +61,8 @@
 .banner-section{
     text-align: center;
     background: linear-gradient(90.00deg, rgba(1.251827359199524, 49.64006805419922, 34.606834411621094, 1),rgba(0, 103, 71, 1) 50%,rgba(1, 50, 35, 1) 100%);
+    width: 1920px;
+    margin: 0 auto;
 }
 
 .banner-section img{
@@ -70,7 +95,9 @@
 
 .service-and-history-section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 1990px;
+    margin: 0 auto;
     margin-top: 48px;
 }
 
@@ -89,6 +116,13 @@
     box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
     background: var(--White, rgba(255, 255, 255, 1));
 }
+
+.heart-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .service-card-img{
     width: 32px;
@@ -143,6 +177,35 @@
     color: var(--Gray, rgba(92, 92, 92, 1));
 }
 
+
 .Call{
     background: var(--Green, rgba(0, 166, 62, 1));
+}
+
+.history{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 1140px;
+}
+
+.history h4{
+    color: var(--Dark, rgba(17, 17, 17, 1));
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 12px;
+}
+
+.history-btn{
+    width: 114px;
+    height: 52px;
+    border-radius: 50px;
+    background: rgba(0, 166, 62, 1);
+    padding: 12px 36px 12px 36px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
 }
