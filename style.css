@@ -26,6 +26,17 @@
 }
 .nav-section-menu{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.heart{
+    margin-right: 20px;
+}
+
+.coin{
+    margin-right: 20px;
 }
 
  .heart-img{
