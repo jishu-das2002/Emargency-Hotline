@@ -24,8 +24,3 @@ document.querySelectorAll(".Copy").forEach(function (btn) {
 
 
 
-
-
-
-
-

@@ -49,6 +49,9 @@
     height: 30px;
 }
 
+
+
+
 .copy-btn{
     justify-content: center;
     align-items: center;
@@ -219,4 +222,79 @@
     font-size: 16px;
     font-weight: 600;
     border: none;
+}
+
+@media screen and (max-width:576px) {
+    .hide{
+        display: none;
+    }
+
+    .nav-section{
+        max-width: 100%;
+        margin-bottom: 20px;
+        margin: 0;
+    }
+
+    .nav-section-menu{
+        margin-left: 5px;
+    }
+
+    .nav-title{
+        flex-direction: column;
+    }
+
+    .nav-title h1{
+        padding-left: 0;
+        margin-top: 5px;
+    }
+
+    .banner-section{
+        max-width: 100%;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .banner-section img{
+        max-width: 75px;
+        min-height: 75px;
+    }
+
+    .banner-h1-text{
+        font-size: 20px;
+    }
+
+    .banner-description{
+        font-size: 14px;
+    }
+
+    .service-and-history-section{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    
+    .service-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .service-card{
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .service-btn{
+        margin-bottom: 10px;
+    }
+
+    .service-card-title{
+        font-size: 18px;
+    }
+
+    .service-num{
+        font-size: 25px;
+    }
+
+    .history{
+        margin-top: 15px;
+        height: 800px;
+    }
 }
