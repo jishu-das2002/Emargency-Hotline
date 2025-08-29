@@ -8,3 +8,24 @@ document.querySelectorAll(".heart-icon").forEach(function (icon) {
   });
 });
 
+//  Copy Emergency Number to Clipboard
+document.querySelectorAll(".Copy").forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    const number = btn.closest(".service-card").querySelector(".service-num").innerText;
+    navigator.clipboard.writeText(number)
+      .then(() => {
+        alert(`"Copied successfully" ${number}`);
+      })
+      .catch(() => {
+        alert(" Copy failed. Please try again");
+      });
+  });
+});
+
+
+
+
+
+
+
+
